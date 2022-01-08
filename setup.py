@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="January",
-    version="0.1",
+    version="0.4",
     author="Jiacheng Huang",
     author_email="chonpcaacpnohc@gmail.com",
     description="a design of experiments platform based on an active learning method with artificial neural networks",
