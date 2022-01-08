@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="douyin_image",
+    name="January",
     version="0.1",
-    author="Zhongqiang Shen",
-    author_email="",
-    description="add douyin effect to image",
+    author="Jiacheng Huang",
+    author_email="chonpcaacpnohc@gmail.com",
+    description="a design of experiments platform based on an active learning method with artificial neural networks",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pythonml/douyin_image",
+    url="https://github.com/Acpnohc/January",
     packages=setuptools.find_packages(),
     install_requires=['Pillow>=5.1.0', 'numpy==1.14.4'],
     entry_points={
