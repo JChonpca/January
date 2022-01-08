@@ -13,15 +13,15 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Acpnohc/January",
     packages=setuptools.find_packages(),
-    install_requires=['Pillow>=5.1.0', 'numpy==1.14.4'],
-    entry_points={
-        'console_scripts': [
-            'douyin_image=douyin_image:main'
-        ],
-    },
+    install_requires=['torch==1.9.1',
+                      'numpy==1.18.5',
+                      'scikit-opt==0.6.5',
+                      'scikit-learn==0.24.1',],
+
     classifiers=(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     ),
 )
