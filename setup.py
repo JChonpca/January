@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="January",
-    version="0.4",
+    version="0.5",
     author="Jiacheng Huang",
     author_email="chonpcaacpnohc@gmail.com",
     description="a design of experiments platform based on an active learning method with artificial neural networks",
@@ -13,10 +13,10 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Acpnohc/January",
     packages=setuptools.find_packages(),
-    install_requires=['torch==1.9.1',
-                      'numpy==1.18.5',
+    install_requires=['torch>=1.2.0',
+                      'numpy>=1.15.0',
                       'scikit-opt==0.6.5',
-                      'scikit-learn==0.24.1',],
+                      'scikit-learn>=0.24.0',],
 
     classifiers=(
         "Programming Language :: Python :: 3",
