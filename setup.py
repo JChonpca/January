@@ -16,7 +16,9 @@ setuptools.setup(
     install_requires=['torch>=1.2.0',
                       'numpy>=1.15.0',
                       'scikit-opt==0.6.5',
-                      'scikit-learn>=0.24.0',],
+                      'scikit-learn>=0.24.0',
+                      'matplotlib>=3.3.3',
+                      'pandas>=1.0.0'],
 
     classifiers=(
         "Programming Language :: Python :: 3",
